@@ -90,7 +90,7 @@ class PlayWithAlphaNumVC: UIViewController {
     @IBAction func manipulateStrings(_ sender: UIButton) {
         if let value1 = firstStrTF.text, let value2 = secondStrTF.text {
                     // Concatenate the text from both text fields
-                    let concate = value1 + value2
+                    let concate = value1+value2
                     var vowelchar=0
                     let vowelsRes: Set<Character> = Set("aeiouAEIOU")
                     for char in concate{
