@@ -120,7 +120,7 @@ class PlayWithAlphaNumVC: UIViewController {
         
     }
     
-    @IBAction func onReset(_ sender: UIButton) {
+    @IBAction func onReset(_ sender: UIButton) { 
         
         firstStrTF.text = " "
         secondStrTF.text = " "
